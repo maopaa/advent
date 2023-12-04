@@ -1,6 +1,6 @@
 
 /** 
- * 🟢 #03: El Elfo travieso. ⚡ ---
+ * 🟢 #03: El Elfo travieso. ⚡ 360
  * -----------------------------------------------------------------
  * Tu tarea es escribir una función que identifique y devuelva el primer paso extra 
  * que se ha añadido o eliminado en la cadena de fabricación. 

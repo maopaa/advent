@@ -4,7 +4,7 @@ let functions = require('../code/03.js');
 
 let assert = require('assert');
 
-describe('El Elfo travieso', function () {
+describe('3) El Elfo travieso', function () {
     // #1: Devuelve el tipo de dato correcto
     it('#1: Devuelve el tipo de dato correcto', function () {
         let originalOne = 'abcd'

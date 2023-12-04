@@ -4,7 +4,7 @@ let manufacture = require('../code/02.js');
 
 let assert = require('assert');
 
-describe('Ponemos en marcha la fábrica.', function () {
+describe('2) Ponemos en marcha la fábrica.', function () {
     // #1: Devuelve el tipo de dato correcto
     it('#1: Devuelve el tipo de dato correcto', function () {
         let gifts = ['libro', 'ps5'];

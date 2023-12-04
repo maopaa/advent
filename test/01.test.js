@@ -4,7 +4,7 @@ let findFirstRepeated = require('../code/01.js');
 
 let assert = require('assert');
 
-describe('¡Primer regalo repetido!', function () {
+describe('1) ¡Primer regalo repetido!', function () {
 
     // #1: Devuelve el tipo de dato correcto
     it('#1: Devuelve el tipo de dato correcto', function () {
