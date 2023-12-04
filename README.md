@@ -1,15 +1,15 @@
-# 2023-advent
+# Advent.js
+Retos de código para javascript cada día de diciembre
 
-To install dependencies:
-
+Opciones de ejecución:
 ```bash
-bun install
+yarn mocha
 ```
-
-To run:
-
+or
 ```bash
-bun run index.js
+pnpm mocha
 ```
-
-This project was created using `bun init` in bun v1.0.14. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+or
+```bash
+bun mocha
+```
