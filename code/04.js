@@ -1,6 +1,6 @@
 
 /** 
- * 🟢 #04: Dale la vuelta a los paréntesis. ⚡ 240
+ * 🟡 #04: Dale la vuelta a los paréntesis. ⚡ 240
  * -----------------------------------------------------------------
  * Santa necesita que estos mensajes estén correctamente formateados. 
  * Tu tarea es escribir una función que tome una cadena de texto y revierta los caracteres dentro de cada par de paréntesis, 
