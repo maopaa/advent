@@ -1,8 +1,6 @@
 /**
- * #06: Los renos a prueba.
+ * 🟢 Los renos a prueba. - ⚡ 360
  * ------------------------------------------------
- * ⚡ 360 * 🟢 Fácil
- * ***
  * '>' Avanza a la derecha; '<' Avanza a la izquierda; '*' Puede avanzar o retroceder
  * ***
  * Por ejemplo, si el movimiento es >>*<, va hacia la derecha dos veces,
@@ -19,7 +17,6 @@ function maxDistance(movements) {
         if (iterator == '<') movement--
         if (iterator == '*') joker++
     }
-
     return Math.abs(movement) + joker
 }
 
