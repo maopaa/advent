@@ -1,4 +1,6 @@
-# 2023-advent
+![image](https://github.com/maopadev/advent/assets/72912622/ecbc4ee1-d982-4b88-ae88-950591e28295)
+
+# Advent
 
 To install dependencies:
 
