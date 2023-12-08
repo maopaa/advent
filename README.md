@@ -2,14 +2,15 @@
 
 # Advent
 
-To install dependencies:
+Repositorio en el cual voy a subir los ejercicios y retos de programación navideños 
+de @midudev
 
+To install dependencies:
 ```bash
 bun install
 ```
 
 To run all tests:
-
 ```bash
 bun mocha
 ```
