@@ -1,19 +1,20 @@
 {
-  "name": "advent-2023",
-  "type": "commonjs",
-  "version": "1.0.0",
-  "description": "Resolución de la prueba técnica de Advent.js",
-  "scripts": {
-    "mocha": "mocha -R Nyan && mocha -R spec",
-    "lint": "eslint . --fix"
-  },
-  "devDependencies": {
-    "bun-types": "latest",
-    "eslint": "^8.55.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "mocha": "^10.2.0",
-    "prettier": "^3.1.0"
-  },
-  "dependencies": {}
+    "name": "advent-2023",
+    "type": "commonjs",
+    "version": "1.0.0",
+    "description": "Resolución de la prueba técnica de Advent.js",
+    "scripts": {
+        "nyan": "mocha -R Nyan",
+        "spec": "mocha -R spec",
+        "lint": "eslint . --fix"
+    },
+    "devDependencies": {
+        "bun-types": "latest",
+        "eslint": "^8.55.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "mocha": "^10.2.0",
+        "prettier": "^3.1.0"
+    },
+    "dependencies": {}
 }
