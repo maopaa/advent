@@ -11,15 +11,18 @@
  */
 
 function adjustLights(lights) {
-    let count = 0
-    lights.forEach((light, i) => {
-        if (i % 2 === 0 && i < lights.length) {
-            if (light === lights[i + 1]) {
-                count++
-            }
-        }
-    })
-    return count
+    const options = [['🔴', '🟢'], ['🟢', '🔴']]
+    let green = 0
+    let red = 0
+
+    let i = 0
+    for (const led of lights) {
+        green += options[0][i % 2] !== led
+        red += options[1][i % 2] !== led
+        i++
+    }
+
+    return Math.min(green, red)
 }
 
 module.exports = adjustLights
