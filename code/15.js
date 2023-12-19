@@ -8,18 +8,18 @@
  */
 
 function autonomousDrive(store, movements) {
-  let robotRow = 0
-  let robotCol = 0
+  let row = 0
+  let column = 0
   store.forEach((row, rowIndex) => {
     const colIndex = row.indexOf('!')
     if (colIndex !== -1) {
-      robotRow = rowIndex
-      robotCol = colIndex
+      row = rowIndex
+      column = colIndex
     }
   })
   movements.forEach((move) => {
-    let newRow = robotRow
-    let newCol = robotCol
+    let newRow = row
+    let newCol = column
     switch (move) {
       case 'R':
         newCol++
@@ -41,10 +41,10 @@ function autonomousDrive(store, movements) {
       newCol < store[0].length &&
       store[newRow][newCol] !== '*'
     ) {
-      store[robotRow] = store[robotRow].substring(0, robotCol) + '.' + store[robotRow].substring(robotCol + 1)
+      store[row] = store[row].substring(0, column) + '.' + store[row].substring(column + 1)
       store[newRow] = store[newRow].substring(0, newCol) + '!' + store[newRow].substring(newCol + 1)
-      robotRow = newRow
-      robotCol = newCol
+      row = newRow
+      column = newCol
     }
   })
   return store
